@@ -1,0 +1,17 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$primary: white;
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+body {
+    
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);    
+    width: 100%;
+    height: 100vh;
+}
