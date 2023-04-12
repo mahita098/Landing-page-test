@@ -1,5 +1,9 @@
 $spacer: 1rem;
 $spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer * 1.5,
   6: ($spacer * 3.5),
   7: ($spacer * 10),
   8: ($spacer * 20),
@@ -20,3 +24,4 @@ $lead-font-weight:            300 !default;
 
 $card-font-weight:500;
 $card-font-weight-9:900;
+

@@ -60,16 +60,15 @@
 }
 
 
-.section-1 {
-   
-    .section-1-header {
+.section-1-header, .section-2-header {
         
         font-family: 'poppins', sans-serif;
         font-size: 46px;
         font-weight: $card-font-weight;
+        
     }
 
-}
+
 
 .section-1-card-body {
     padding: 40px;
@@ -88,8 +87,10 @@
     
     a {
         color: #03D6F3;
+        text-decoration: none;
     }
 }
+
 
 
 
@@ -101,9 +102,19 @@
     ;
 }
 
+.section-2-card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: auto;
+    
+}
 
-
-
+.section-2-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
