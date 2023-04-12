@@ -12030,9 +12030,27 @@ textarea.form-control-lg {
 }
 
 .btn {
+  padding: 10px 40px;
+}
+
+.homepage-btn {
   background-color: transparent;
   border-color: white;
   color: white;
+}
+
+.wrapper-btn {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  display: block;
+  margin: 1rem 5rem;
+}
+@media (min-width: 576px) {
+  .wrapper-btn {
+    display: inline;
+    margin: 0 0.5rem;
+  }
 }
 
 .btn:hover {
@@ -12044,16 +12062,16 @@ textarea.form-control-lg {
   padding: 0 50px;
 }
 
-.homepage {
+.wrapper {
   --bs-gutter-x: 6rem;
 }
-.homepage .display-2 {
+.wrapper .wrapper-text1 {
   font-family: "poppins";
   font-size: 46px;
   font-weight: 500;
 }
 @media (min-width: 576px) {
-  .homepage .display-2 {
+  .wrapper .wrapper-text1 {
     font-family: "poppins";
     font-size: 55px;
     font-weight: 900;
@@ -12061,9 +12079,6 @@ textarea.form-control-lg {
     line-height: 65.5px;
   }
 }
-
-@media (min-width: 576px) {
-  .homepage-text2 {
-    margin: 0 94.5px;
-  }
+.wrapper .wrapper-text2 {
+  margin: 0 50px;
 }/*# sourceMappingURL=main.css.map */

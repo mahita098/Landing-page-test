@@ -9,13 +9,36 @@
     
 }
 
-
 .btn {
+    padding: 10px 40px;
+}
+
+
+.homepage-btn {
     background-color: transparent;
     border-color: white;
     color: white;
-
+   
+    
+        
 }
+
+.wrapper-btn {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    display: block;
+    margin: 1rem 5rem;
+    
+
+    @include media-breakpoint-up(sm){
+        display: inline;
+        margin:0 0.5rem;
+
+    }
+        
+}
+
 
 .btn:hover {
     background-color: white;;
@@ -33,11 +56,11 @@
 
 }
 
-.homepage {
+.wrapper {
         --bs-gutter-x: 6rem;
     
 
-    .display-2 {
+    .wrapper-text1 {
         font-family: "poppins";
         font-size: 46px;
         font-weight: 500;
@@ -51,11 +74,12 @@
 
 
     } 
+    .wrapper-text2 {
+        
+            margin:0 50px;
+
+
+}
 }
 
-.homepage-text2 {
-        @include media-breakpoint-up(sm){
-            margin: 0 94.5px;
-        }
-}
 
