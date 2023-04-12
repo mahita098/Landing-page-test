@@ -1,0 +1,22 @@
+$spacer: 1rem;
+$spacers: (
+  6: ($spacer * 3.5),
+  7: ($spacer * 10),
+  8: ($spacer * 20),
+  4: ($spacer * 2),
+  5: ($spacer * 2.5)
+);
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+$lead-font-weight:            300 !default;
+
+$card-font-weight:500;
+$card-font-weight-9:900;
