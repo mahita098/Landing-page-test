@@ -12044,20 +12044,26 @@ textarea.form-control-lg {
   padding: 0 50px;
 }
 
-.container {
+.homepage {
   --bs-gutter-x: 6rem;
 }
-.container .display-2 {
+.homepage .display-2 {
   font-family: "poppins";
   font-size: 46px;
   font-weight: 500;
 }
 @media (min-width: 576px) {
-  .container .display-2 {
+  .homepage .display-2 {
     font-family: "poppins";
     font-size: 55px;
     font-weight: 900;
     letter-spacing: 0.2px;
     line-height: 65.5px;
+  }
+}
+
+@media (min-width: 576px) {
+  .homepage-text2 {
+    margin: 0 94.5px;
   }
 }/*# sourceMappingURL=main.css.map */

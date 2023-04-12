@@ -33,8 +33,9 @@
 
 }
 
-.container {
-    --bs-gutter-x: 6rem;
+.homepage {
+        --bs-gutter-x: 6rem;
+    
 
     .display-2 {
         font-family: "poppins";
@@ -50,5 +51,11 @@
 
 
     } 
+}
+
+.homepage-text2 {
+        @include media-breakpoint-up(sm){
+            margin: 0 94.5px;
+        }
 }
 
