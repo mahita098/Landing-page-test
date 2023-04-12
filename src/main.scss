@@ -1,26 +1,54 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-body {
+.homepage {
     
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);    
-    width: 100%;
-    height: 100vh;
+    height: auto;
+    
+    
 }
 
 
 .btn {
     background-color: transparent;
     border-color: white;
+    color: white;
 
 }
 
 .btn:hover {
     background-color: white;;
+    color: black;
 
 }
 
-:root {
-    --bs-body-font-family: 'Poppins', sans-serif;
-    --bs-body-font-weight: 900;
+// :root {
+//     --bs-body-font-family: 'Poppins', sans-serif;
+    
+// }
+
+.card.img-bottom {
+    padding: 0 50px;
+
 }
+
+.container {
+    --bs-gutter-x: 6rem;
+
+    .display-2 {
+        font-family: "poppins";
+        font-size: 46px;
+        font-weight: 500;
+        @include media-breakpoint-up(sm) {
+            font-family: "poppins";
+              font-size: 55px;
+              font-weight: 900;
+              letter-spacing: 0.2px;
+              line-height: 65.5px;
+            }
+
+
+    } 
+}
+
