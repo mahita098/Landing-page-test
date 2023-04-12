@@ -12096,7 +12096,7 @@ textarea.form-control-lg {
 }
 
 .section-1-card-body {
-  padding: 50px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -12106,6 +12106,8 @@ textarea.form-control-lg {
 .section-1-card-body .section-1-card-title {
   font-size: 30px;
   font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 33px;
 }
 .section-1-card-body a {
   color: #03D6F3;
