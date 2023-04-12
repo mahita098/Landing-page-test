@@ -5,22 +5,16 @@
     
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);    
     height: auto;
-    
-    
 }
 
 .btn {
     padding: 10px 40px;
 }
 
-
 .homepage-btn {
     background-color: transparent;
     border-color: white;
-    color: white;
-   
-    
-        
+    color: white;      
 }
 
 .wrapper-btn {
@@ -99,7 +93,7 @@
 }
 
 .section-1-card-body {
-    padding: 50px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -108,6 +102,8 @@
     .section-1-card-title {
         font-size: 30px;
         font-weight: 700;
+        letter-spacing: 0.1px;
+        line-height: 33px;
         
     }
     
