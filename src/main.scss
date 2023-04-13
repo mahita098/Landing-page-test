@@ -39,21 +39,6 @@
 }
 
 
-.section-2-btn {
-    border-color: #03D6F3;
-    color: #03D6F3;
-    display: block;
-    margin: 1rem 5rem;
-
-    @include media-breakpoint-up(sm){
-        display: inline;
-        margin:1rem 5rem;
-        
-
-    }
-
-    
-}
 
 .wrapper {
         --bs-gutter-x: 6rem;
@@ -143,8 +128,6 @@
         }
     
 }
-
-
 
 
 

@@ -13262,7 +13262,7 @@ textarea.form-control-lg {
   }
 }
 
-.section-2-btn {
+.section-btn {
   background-color: transparent;
   border-color: #03D6F3;
   color: #03D6F3;
@@ -13270,9 +13270,9 @@ textarea.form-control-lg {
   margin: 1rem 5rem;
 }
 @media (min-width: 576px) {
-  .section-2-btn {
+  .section-btn {
     display: inline;
-    margin: 0 0.5rem;
+    margin: 0 0.1rem;
   }
 }
 
