@@ -4,11 +4,11 @@ $spacers: (
   1: $spacer * .25,
   2: $spacer * .5,
   3: $spacer * 1.5,
-  6: ($spacer * 3.5),
-  7: ($spacer * 10),
-  8: ($spacer * 20),
   4: ($spacer * 2),
-  5: ($spacer * 2.5)
+  5: ($spacer * 2.5),
+  6: ($spacer * 3.5),
+  7: ($spacer * 6),
+  8: ($spacer * 4.5),
 );
 
 $display-font-sizes: (
@@ -24,4 +24,23 @@ $lead-font-weight:            300 !default;
 
 $card-font-weight:500;
 $card-font-weight-9:900;
+
+
+// xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px
+
+@mixin small {
+  @media (max-width: 576px) { @content; }
+}
+@mixin medium {
+  @media (min-width: 768px) { @content; }
+}
+@mixin large {
+  @media (min-width: 992px) { @content; }
+}
+@mixin xlarge {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin xxl {
+  @media (min-width: 1400px) { @content; }
+}
 
