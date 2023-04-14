@@ -13276,12 +13276,19 @@ textarea.form-control-lg {
   }
 }
 
-.section-1-header,
-.section-2-header {
+.section-header {
   font-family: "poppins", sans-serif;
   font-size: 46px;
   font-weight: 500;
   letter-spacing: 0.2px;
+}
+.section-header br {
+  display: none;
+}
+@media (min-width: 576px) {
+  .section-header br {
+    display: block;
+  }
 }
 
 .section-1-card-body {
@@ -13321,13 +13328,13 @@ textarea.form-control-lg {
   }
 }
 
-.section-2-card-body {
+.section-card-body {
   gap: 20px;
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 576px) {
-  .section-2-card-body {
+  .section-card-body {
     display: flex;
     flex-direction: row;
   }
@@ -13340,6 +13347,7 @@ textarea.form-control-lg {
 .section-card-text {
   font-size: 18px;
   font-weight: 700;
+  text-align: center;
 }
 .section-card-text br {
   display: none;
@@ -13347,5 +13355,15 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .section-card-text br {
     display: block;
+    text-align: left;
+  }
+}
+
+.header4, .text4 {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .header4, .text4 {
+    text-align: left;
   }
 }/*# sourceMappingURL=main.css.map */
