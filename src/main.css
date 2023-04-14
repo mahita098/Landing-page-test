@@ -13234,12 +13234,8 @@ textarea.form-control-lg {
   }
 }
 .homepage-color {
-  background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+  background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
   height: auto;
-}
-
-.btn {
-  padding: 10px 40px;
 }
 
 .homepage-btn {
@@ -13262,25 +13258,6 @@ textarea.form-control-lg {
   }
 }
 
-.section-btn {
-  background-color: transparent;
-  border-color: #03D6F3;
-  color: #03D6F3;
-  display: block;
-  margin: 1rem 5rem;
-}
-@media (min-width: 576px) {
-  .section-btn {
-    display: inline;
-    margin: 0 0.1rem;
-  }
-}
-
-.btn:hover {
-  background-color: white;
-  color: black;
-}
-
 .wrapper {
   --bs-gutter-x: 6rem;
 }
@@ -13299,10 +13276,12 @@ textarea.form-control-lg {
   }
 }
 
-.section-1-header, .section-2-header {
+.section-1-header,
+.section-2-header {
   font-family: "poppins", sans-serif;
   font-size: 46px;
   font-weight: 500;
+  letter-spacing: 0.2px;
 }
 
 .section-1-card-body {
@@ -13320,23 +13299,37 @@ textarea.form-control-lg {
   line-height: 33px;
 }
 .section-1-card-body a {
-  color: #03D6F3;
+  color: #03d6f3;
   text-decoration: none;
 }
 
 .card-color {
-  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #DEDEDE, #DEDEDE);
+  background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(0deg, #dedede, #dedede);
+}
+
+.section-btn {
+  background-color: transparent;
+  border-color: #03d6f3;
+  color: #03d6f3;
+  display: block;
+  margin: 1rem 5rem;
+}
+@media (min-width: 576px) {
+  .section-btn {
+    display: inline;
+    margin: 0 0.1rem;
+  }
 }
 
 .section-2-card-body {
-  display: flex;
-  flex-direction: row;
   gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .section-2-card-body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -13344,7 +13337,15 @@ textarea.form-control-lg {
   font-size: 16px;
 }
 
-.section-2-card-text {
+.section-card-text {
   font-size: 18px;
   font-weight: 700;
+}
+.section-card-text br {
+  display: none;
+}
+@media (min-width: 576px) {
+  .section-card-text br {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

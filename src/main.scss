@@ -1,133 +1,131 @@
-
 @import "./vars";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .homepage-color {
-    
-    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);    
-    height: auto;
+  background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
+  height: auto;
 }
 
 // .btn {
 //     padding: 10px 40px;
 // }
 
-
-
 .homepage-btn {
-    background-color: transparent;
-    border-color: white;
-    color: white;      
+  background-color: transparent;
+  border-color: white;
+  color: white;
 }
 
 .wrapper-btn {
-    background-color: transparent;
-    border-color: white;
-    color: white;
-    display: block;
-    margin: 1rem 5rem;
-    
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  display: block;
+  margin: 1rem 5rem;
 
-    @include media-breakpoint-up(sm){
-        display: inline;
-        margin:0 0.5rem;
-
-    }
-
-     
+  @include media-breakpoint-up(sm) {
+    display: inline;
+    margin: 0 0.5rem;
+  }
 }
-
-
 
 .wrapper {
-        --bs-gutter-x: 6rem;
+  --bs-gutter-x: 6rem;
 
-    .wrapper-text1 {
-        font-family: "poppins";
-        font-size: 46px;
-        font-weight: $card-font-weight;
-        @include media-breakpoint-up(sm) {
-            font-family: "poppins";
-              font-size: 55px;
-              font-weight: $card-font-weight-9;
-              letter-spacing: 0.2px;
-              line-height: 65.5px;
-            }
-    } 
+  .wrapper-text1 {
+    font-family: "poppins";
+    font-size: 46px;
+    font-weight: $card-font-weight;
+    @include media-breakpoint-up(sm) {
+      font-family: "poppins";
+      font-size: 55px;
+      font-weight: $card-font-weight-9;
+      letter-spacing: 0.2px;
+      line-height: 65.5px;
+    }
+  }
 }
 
-
-.section-1-header,.section-2-header {
-        
-        font-family: 'poppins', sans-serif;
-        font-size: 46px;
-        font-weight: $card-font-weight;
-        
-    }
-
-
+.section-1-header,
+.section-2-header {
+  font-family: "poppins", sans-serif;
+  font-size: 46px;
+  font-weight: $card-font-weight;
+  letter-spacing: 0.2px;
+}
 
 .section-1-card-body {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    box-shadow: 0px 4px 31px 0px #00000026;
-    font-family: 'poppins', sans-serif;
-    .section-1-card-title {
-        font-size: 30px;
-        font-weight: 700;
-        letter-spacing: 0.1px;
-        line-height: 33px;
-        
-    }
-    
-    a {
-        color: #03D6F3;
-        text-decoration: none;
-    }
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 4px 31px 0px #00000026;
+  font-family: "poppins", sans-serif;
+  .section-1-card-title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 33px;
+  }
+
+  a {
+    color: #03d6f3;
+    text-decoration: none;
+  }
 }
-
-
-
-
-
 
 .card-color {
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
-    linear-gradient(0deg, #DEDEDE, #DEDEDE);
-    ;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #dedede, #dedede);
 }
 
+.section-btn {
+  background-color: transparent;
+  border-color: #03d6f3;
+  color: #03d6f3;
+  display: block;
+  margin: 1rem 5rem;
+  @include media-breakpoint-up(sm) {
+    display: inline;
+    margin: 0 0.1rem;
+  }
+
+
+
+}
 
 .section-2-card-body {
+  
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-up(sm) {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    
-    }
-    
-    @include small {
-        display: flex;
-        flex-direction: column;
+  }
+  
+
+
 }
-
-
 
 .section-1-card-text {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-.section-2-card-text {
-    font-size: 18px;
-    font-weight: 700;
-    
-    @include medium {
-        text-align: center;
-        }
-    
+.section-card-text {
+  font-size: 18px;
+  font-weight: 700;
+
+  br {
+    display: none;
+  }
+
+  @include media-breakpoint-up(sm) {
+    br {
+      display: block;
+    }
+  }
 }
-
-
-
