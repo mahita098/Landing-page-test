@@ -127,7 +127,7 @@
 .section-card-text {
   font-size: 18px;
   font-weight: 700;
-  text-align: center;
+  
 
   br {
     display: none;
@@ -136,7 +136,7 @@
   @include media-breakpoint-up(sm) {
     br {
       display: block;
-      text-align: left;
+      
     }
   }
 }
@@ -150,3 +150,16 @@
         
       }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
