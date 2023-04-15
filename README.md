@@ -12,7 +12,7 @@ SCSS IntelliSense
 Live SassCompiler
 Live Server
 
-## To NOte
+## To Note
 
 This is the first project i am implementing Bootstrap and SCSS, so i may not be using the best methods. I am still learning how to get better in using both Boostrap and SCSS.
 

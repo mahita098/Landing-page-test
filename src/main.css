@@ -15264,12 +15264,13 @@ textarea.form-control-lg {
   border-color: white;
   color: white;
   display: block;
-  margin: 1rem 5rem;
+  width: auto;
+  padding: 10px 36px;
 }
 @media (min-width: 576px) {
   .wrapper-btn {
     display: inline;
-    margin: 0 0.5rem;
+    width: auto;
   }
 }
 
@@ -15296,6 +15297,12 @@ textarea.form-control-lg {
   font-size: 46px;
   font-weight: 500;
   letter-spacing: 0.2px;
+  padding: 0px 20px;
+}
+@media (min-width: 576px) {
+  .section-header {
+    padding: 0px;
+  }
 }
 .section-header br {
   display: none;
@@ -15306,13 +15313,35 @@ textarea.form-control-lg {
   }
 }
 
+.section-card-text {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0px 20px;
+}
+@media (min-width: 576px) {
+  .section-card-text {
+    padding: 0px;
+  }
+}
+.section-card-text br {
+  display: none;
+}
+@media (min-width: 576px) {
+  .section-card-text br {
+    display: block;
+  }
+}
+
 .section-1-card-body {
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  padding: 35px;
   box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.1490196078);
   font-family: "poppins", sans-serif;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .section-1-card-body {
+    text-align: left;
+  }
 }
 .section-1-card-body .section-1-card-title {
   font-size: 30px;
@@ -15334,12 +15363,11 @@ textarea.form-control-lg {
   border-color: #03d6f3;
   color: #03d6f3;
   display: block;
-  margin: 1rem 5rem;
+  padding: 10px 36px;
 }
 @media (min-width: 576px) {
   .section-btn {
     display: inline;
-    margin: 0 0.1rem;
   }
 }
 
@@ -15355,21 +15383,14 @@ textarea.form-control-lg {
   }
 }
 
-.section-1-card-text {
-  font-size: 16px;
+@media (min-width: 576px) {
+  .section-2-card-body {
+    padding-left: 40px;
+  }
 }
 
-.section-card-text {
-  font-size: 18px;
-  font-weight: 700;
-}
-.section-card-text br {
-  display: none;
-}
-@media (min-width: 576px) {
-  .section-card-text br {
-    display: block;
-  }
+.section-1-card-text {
+  font-size: 16px;
 }
 
 .header4, .text4 {
@@ -15441,15 +15462,22 @@ textarea.form-control-lg {
 .footer .about-company a:hover {
   color: #4180CB;
 }
-.footer .location i {
-  font-size: 18px;
+.footer .location .map-img {
+  width: 284px;
+  height: 197px;
+}
+@media (min-width: 576px) {
+  .footer .location .map-img {
+    width: 334px;
+    height: 247px;
+  }
 }
 .footer .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-section {
-  padding: 30px 70px;
+  padding: 30px 50px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -15462,4 +15490,8 @@ textarea.form-control-lg {
     gap: 90px;
     padding: 30px 60px;
   }
+}
+
+.navbar-toggler {
+  border-color: transparent;
 }/*# sourceMappingURL=main.css.map */
