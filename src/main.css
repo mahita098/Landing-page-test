@@ -15378,6 +15378,19 @@ textarea.form-control-lg {
   }
 }
 
+.section4-card-body {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 576px) {
+  .section4-card-body {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+}
+
 @media (min-width: 576px) {
   .section-2-card-body {
     padding-left: 40px;
@@ -15405,6 +15418,38 @@ textarea.form-control-lg {
   padding: 10px 36px;
 }
 .section-btn .section-btn-color:hover {
+  background-color: #03d6f3;
+  color: white;
+}
+
+.section4-btn {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 576px) {
+  .section4-btn {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.section4-btn .section4-btn-color {
+  background-color: transparent;
+  border-color: #03d6f3;
+  color: #03d6f3;
+  padding: 10px 27px;
+}
+.section4-btn .section4-btn-color:hover {
+  background-color: #03d6f3;
+  color: white;
+}
+
+.section5-btn, .section6-btn {
+  background-color: transparent;
+  border-color: #03d6f3;
+  color: #03d6f3;
+  padding: 10px 27px;
+}
+.section5-btn:hover, .section6-btn:hover {
   background-color: #03d6f3;
   color: white;
 }
@@ -15512,4 +15557,8 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   border-color: transparent;
+}
+
+.border-top {
+  border-top: 1px solid #ccc;
 }/*# sourceMappingURL=main.css.map */
