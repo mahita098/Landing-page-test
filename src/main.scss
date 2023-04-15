@@ -333,6 +333,16 @@
   border-top: 1px solid #ccc;
 }
 
-
-
+.subscribe-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+}
 
