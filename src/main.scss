@@ -16,6 +16,25 @@
   background-color: transparent;
   border-color: white;
   color: white;
+  font-size: 12px;
+
+  @include media-breakpoint-up(sm) {
+
+  }
+}
+
+.navbar-brand {
+  img {
+    width: 126px;
+    height: 58px;
+
+    @include media-breakpoint-up(sm) {
+      width: 186px;
+      height: 58px;
+
+    }
+
+  }
 }
 
 .wrapper-btn {
@@ -325,9 +344,27 @@
   }
 }
 
+
 .navbar-toggler {
   border-color: transparent;
+
+  .navtoggler {
+  
+    width: 32px;
+    height: 15px;
+  
+    @include media-breakpoint-up(sm) {
+      
+      width: 44px;
+      height: 27px;
+    }
+  }
+  
+
 }
+
+
+
 
 .border-top {
   border-top: 1px solid #ccc;

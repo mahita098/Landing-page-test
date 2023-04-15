@@ -15257,6 +15257,17 @@ textarea.form-control-lg {
   background-color: transparent;
   border-color: white;
   color: white;
+  font-size: 12px;
+}
+.navbar-brand img {
+  width: 126px;
+  height: 58px;
+}
+@media (min-width: 576px) {
+  .navbar-brand img {
+    width: 186px;
+    height: 58px;
+  }
 }
 
 .wrapper-btn {
@@ -15557,6 +15568,16 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   border-color: transparent;
+}
+.navbar-toggler .navtoggler {
+  width: 32px;
+  height: 15px;
+}
+@media (min-width: 576px) {
+  .navbar-toggler .navtoggler {
+    width: 44px;
+    height: 27px;
+  }
 }
 
 .border-top {
