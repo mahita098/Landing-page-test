@@ -15589,10 +15589,24 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
 }
+.subscribe-box .section6-btn {
+  border-radius: 5px;
+  width: 100%;
+  background: #4180cb;
+}
+.subscribe-box > div {
+  width: 90%;
+}
 @media (min-width: 576px) {
   .subscribe-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+  .subscribe-box .section6-btn {
+    border-radius: 15px;
+  }
+  .subscribe-box > div {
+    width: auto;
   }
 }/*# sourceMappingURL=main.css.map */
