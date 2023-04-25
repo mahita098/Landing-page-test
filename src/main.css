@@ -15267,12 +15267,12 @@ textarea.form-control-lg {
 }
 
 .navbar-brand img {
-  width: 126px;
+  width: 62px;
   height: 58px;
 }
 @media (min-width: 576px) {
   .navbar-brand img {
-    width: 186px;
+    width: 100px;
     height: 75px;
   }
 }

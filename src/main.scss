@@ -26,11 +26,11 @@
 
 .navbar-brand {
   img {
-    width: 126px;
+    width: 62px;
     height: 58px;
 
     @include media-breakpoint-up(sm) {
-      width: 186px;
+      width: 100px;
       height: 75px;
 
     }
