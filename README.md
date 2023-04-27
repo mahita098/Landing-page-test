@@ -1,4 +1,4 @@
-# test-frontend-landing-page
+# landing-page-test
 
 ## Project Set Up
 
